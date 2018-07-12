@@ -32,11 +32,10 @@ end
 
 for i, v in pairs(t) do
     m, d, y = string.match(v.Date, "(%d+)/(%d+)/(%d+)")
-    print(m, d, y)
     day = y.."-"..m.."-"..d
     h, m, s = string.match(v.Time, "(%d+).(%d+).(%d+)")
     time = h..":"..m..":"..s
-    v.Time = day.."T"..time.."Z"
+    v.Time = day.."T"..time..".000Z"
 end
 
 local tt = {}
@@ -45,7 +44,18 @@ for index, v in pairs(t) do
     local line = {}
     for name, vv in pairs(v) do
         if name ~= nil and name ~= "Date" and string.len(name) ~= 0 then do
-            line[name] = tonumber(vv)
+            if name ~= "Time" then do
+                vvv1, vvv2 = string.match(vv, "(%d+),(%d+)")
+            if vvv1 == nil or vvv2 == nil then do
+                line[name] = tonumber(vv)
+            end
+            else
+                line[name] = tonumber(vvv1.."."..vvv2)
+            end
+                end
+            else line[name] = vv
+                end
+
         end
         end
     end
