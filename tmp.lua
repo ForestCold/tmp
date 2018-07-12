@@ -45,7 +45,7 @@ for index, v in pairs(t) do
     local line = {}
     for name, vv in pairs(v) do
         if name ~= nil and name ~= "Date" and string.len(name) ~= 0 then do
-            line[name] = vv
+            line[name] = tonumber(vv)
         end
         end
     end
