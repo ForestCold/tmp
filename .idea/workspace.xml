@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e38c865-ae22-41c4-a038-7329d6e38ed7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airQuality.json" beforeDir="false" afterPath="$PROJECT_DIR$/airQuality.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.lua" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json.lua" beforeDir="false" afterPath="$PROJECT_DIR$/json.lua" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,20 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tmp.lua" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tmp.lua">
+      <file leaf-file-name="airQuality.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/airQuality.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="1233">
+              <caret line="9355" column="250" lean-forward="true" selection-start-line="9355" selection-start-column="250" selection-end-line="9355" selection-end-column="250" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="airQuality.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/airQuality.json">
+      <file leaf-file-name="json.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="149576" column="13" selection-start-line="149576" selection-start-column="13" selection-end-line="149576" selection-end-column="37" />
+            <state relative-caret-position="357">
+              <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -46,6 +47,7 @@
     <findStrings>
       <find>header</find>
       <find>t</find>
+      <find>,</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -61,14 +63,15 @@
         <option value="$PROJECT_DIR$/.idea/t.csv" />
         <option value="$PROJECT_DIR$/jsonParser.lua" />
         <option value="$PROJECT_DIR$/AirQualityUCI.csv" />
-        <option value="$PROJECT_DIR$/airQuality.json" />
         <option value="$PROJECT_DIR$/tmp.lua" />
+        <option value="$PROJECT_DIR$/json.lua" />
+        <option value="$PROJECT_DIR$/airQuality.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="281" />
-    <option name="y" value="70" />
+    <option name="x" value="161" />
+    <option name="y" value="46" />
     <option name="width" value="1365" />
     <option name="height" value="958" />
   </component>
@@ -77,9 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,6 +96,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +196,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="70" width="1365" height="958" extended-state="0" />
+    <frame x="161" y="46" width="1365" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -229,6 +232,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tmp.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airQuality.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tmp.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -274,11 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1555" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsonParser.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -300,17 +312,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/airQuality.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="149576" column="13" selection-start-line="149576" selection-start-column="13" selection-end-line="149576" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airQuality.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1233">
+          <caret line="9355" column="250" lean-forward="true" selection-start-line="9355" selection-start-column="250" selection-end-line="9355" selection-end-column="250" />
         </state>
       </provider>
     </entry>
