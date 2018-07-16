@@ -31,7 +31,7 @@ for fields in f:lines() do
 end
 
 for i, v in pairs(t) do
-    m, d, y = string.match(v.Date, "(%d+)/(%d+)/(%d+)")
+    d, m, y = string.match(v.Date, "(%d+)/(%d+)/(%d+)")
     day = y.."-"..m.."-"..d
     h, m, s = string.match(v.Time, "(%d+).(%d+).(%d+)")
     time = h..":"..m..":"..s
